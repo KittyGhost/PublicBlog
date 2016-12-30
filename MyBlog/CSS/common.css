@@ -1,0 +1,116 @@
+﻿body {
+    font: 12px "宋体", "Arial Narrow", HELVETICA;
+    color: #3F3E3C;
+    background: #444444;
+    text-align: center;
+}
+
+header {
+    line-height: 1.5;
+    margin: 0 auto 10px auto;
+    width: 100%;
+    background: #333333;
+    height: 70px;
+    border-bottom: #464647 1px solid;
+}
+
+    header nav {
+        margin: 0 auto;
+        width: 1000px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+        header nav ul li {
+            line-height: 40px;
+            display: inline;
+        }
+
+            header nav ul li a {
+                color: #E7E7E7;
+                display: block;
+                padding: 0 20px;
+                margin-right: 10px;
+                float: left;
+                text-decoration: none;
+            }
+
+                header nav ul li a:hover, #nav_current {
+                    color: #ffffff;
+                    background: rgba(20, 20, 20, 0.8);
+                    box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);
+                    border-radius: 6px;
+                }
+
+.blank {
+    height: 10px;
+}
+
+.sliderbar {
+    position: relative;
+    margin: 50px auto;
+}
+
+.unslider {
+    float: left;
+    margin: 0 0 0 10%;
+    width: 50%;
+}
+
+.sliderimg {
+    height: 297px;
+    width: 450px;
+}
+
+.contract {
+    margin: 0 0 0 60%;
+    width: 20%;
+    height: 300px;
+    color: white;
+    background-color: #808080;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.contracttitle {
+    margin: 0 auto;
+    padding: 5px 0 0 10%;
+    text-align: left;
+    color: silver;
+    height: 30px;
+    font-size: 30px;
+    font-family: 'OCR A';
+}
+
+.contracttable {
+    margin: 0 auto;
+    padding: 10% 0 0 5%;
+    text-align: left;
+    color: cornsilk;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Lucida Bright';
+}
+
+.contractprop {
+    height: 30px;
+}
+
+.main {
+    width: 70%;
+    margin: 0 0 0 15%;
+}
+
+.timelinebar {
+    width: 64%;
+    float: left;
+    height: 80px;
+}
+
+.timelinenode {
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    height: 80px;
+}
