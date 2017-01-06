@@ -260,5 +260,28 @@ header {
 .sidebar {
     width: 30%;
     float: left;
-    height: 80px;
+    height: 1400px;
+}
+
+    .sidebar div {
+        margin: 20px auto;
+        width: 80%;
+        border-radius:15px;
+        background-color: #333;
+    }
+
+.sidebarhot {
+    height: 300px;
+}
+
+.sidebarcommend {
+    height: 300px;
+}
+
+.sidebarmusic {
+    height: 200px;
+}
+
+.sidebarcomment {
+    height: 400px;
 }
