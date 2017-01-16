@@ -10,7 +10,9 @@
     <link href="css/common.css" rel="stylesheet" />
     <script>
         $(document).ready(function () {
-            $('.unslider').unslider();
+            unslider = $('.unslider').unslider({
+                delay: 5000, arrows: false, autoplay: true
+            });
         });
     </script>
 </head>
