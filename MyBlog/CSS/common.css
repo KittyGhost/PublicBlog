@@ -74,7 +74,7 @@ header {
     border-radius: 15px 15px 15px 15px;
 }
 
-.contracttitle {
+.contract-title {
     margin: 0 auto;
     padding: 5px 0 0 10%;
     text-align: left;
@@ -84,7 +84,7 @@ header {
     font-family: 'OCR A';
 }
 
-.contracttable {
+.contract-table {
     margin: 0 auto;
     padding: 10% 0 0 5%;
     text-align: left;
@@ -94,7 +94,7 @@ header {
     font-family: 'Lucida Bright';
 }
 
-.contractprop {
+.contract-prop {
     height: 30px;
 }
 
@@ -119,7 +119,7 @@ header {
     padding: 20px 0 20px 0;
 }
 
-.noderec {
+.timelinenode-rec {
     width: 680px;
     height: 100%;
     float: left;
@@ -129,7 +129,7 @@ header {
     text-indent: 2em;
 }
 
-.noderectop {
+.timelinenode-rectop {
     width: 100%;
     height: 20%;
     float: left;
@@ -138,20 +138,20 @@ header {
     background-color: #323232;
 }
 
-    .noderectop a {
+    .timelinenode-rectop a {
         color: silver;
         font: 18px 'Microsoft YaHei', "Arial Narrow", HELVETICA;
         text-decoration: none;
         transition: all 1s ease;
     }
 
-        .noderectop a:hover {
+        .timelinenode-rectop a:hover {
             color: white;
             padding-left: 50px;
         }
 
 
-.noderecmiddle {
+.timelinenode-rec-middle {
     width: 100%;
     height: 65%;
     float: left;
@@ -159,18 +159,18 @@ header {
     vertical-align: middle;
 }
 
-.noderecmiddleleft {
+.timelinenode-rec-middle-left {
     width: 40%;
     height: 100%;
     float: left;
 }
 
-    .noderecmiddleleft img {
+    .timelinenode-rec-middle-left img {
         width: 80%;
         height: 90%;
     }
 
-.noderecmiddleright {
+.timelinenode-rec-middle-right {
     width: 60%;
     height: 100%;
     float: left;
@@ -178,7 +178,7 @@ header {
     word-wrap: break-word;
 }
 
-    .noderecmiddleright p {
+    .timelinenode-rec-middle-right p {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
         height: 88%;
@@ -188,7 +188,7 @@ header {
         overflow: hidden;
     }
 
-.noderecbottom {
+.timelinenode-rec-bottom {
     width: 100%;
     height: 15%;
     float: left;
@@ -196,49 +196,49 @@ header {
     background-color: #222222;
 }
 
-    .noderecbottom p {
+    .timelinenode-rec-bottom p {
         vertical-align: middle;
     }
 
-.noderecbottomtime {
+.timelinenode-rec-bottomtime {
     background: url(../resource/icons.png) no-repeat;
     background-position: 0 -208px;
     padding-left: 18px;
 }
 
-.noderecbottomright {
+.timelinenode-rec-bottomright {
     float: right;
     margin: 0 10px;
 }
 
-    .noderecbottomright span {
+    .timelinenode-rec-bottomright span {
         float: left;
         margin: 0 10px;
         text-indent: 0px;
         padding-left: 18px;
     }
 
-.noderecbottomvisited {
+.timelinenode-rec-bottom-visited {
     background: url(../resource/icons.png) no-repeat;
     background-position: 0 -226px;
 }
 
-.noderecbottomlike {
+.timelinenode-rec-bottom-like {
     background: url(../resource/icons.png) no-repeat;
     background-position: 0 -246px;
 }
 
-    .noderecbottomlike a {
+    .timelinenode-rec-bottom-like a {
         color: navajowhite;
         text-decoration: none;
         transition: all 1s ease;
     }
 
-        .noderecbottomlike a :hover {
+        .timelinenode-rec-bottom-like a :hover {
             color: red;
         }
 
-.nodetri {
+.timelinenode-tri {
     width: 0px;
     height: 0px;
     border-style: solid;
@@ -249,7 +249,7 @@ header {
     float: left;
 }
 
-.nodecir {
+.timelinenode-cir {
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -260,7 +260,7 @@ header {
     transition: all 1s ease;
 }
 
-    .nodecir:hover {
+    .timelinenode-cir:hover {
         border-color: #EEE;
     }
 
@@ -278,7 +278,7 @@ header {
         background-color: #333;
     }
 
-.sidebarhot {
+.sidebar-hot {
     height: 300px;
 }
 
