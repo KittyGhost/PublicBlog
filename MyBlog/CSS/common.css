@@ -298,7 +298,8 @@ header {
 }
 
     .sidebar-music-box iframe {
-        width: 270px;
+        min-width: 270px;
+        width: 90%;
         height: 86px;
     }
 
