@@ -340,7 +340,7 @@ header {
 }
 
     .sidebar-music-source div {
-        height: 30px;
+        height: 28px;
         background: url(../resource/icons.png) no-repeat;
         background-position: 0 -35px;
     }
@@ -362,9 +362,17 @@ footer {
 
     .footer-bar > div {
         margin: 0 auto;
+        height: 330px;
         width: 80%;
         min-width: 1000px;
     }
+
+.footer-bar-link {
+    float: left;
+    height: 330px;
+    width: 33%;
+    min-width: 333px;
+}
 
 .footer-info {
     height: 70px;
