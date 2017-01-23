@@ -307,12 +307,15 @@ header {
     margin: 0 auto;
     height: 30px;
     text-align: left;
+    background-color: #222;
+    border-radius: 0 0 15px 15px;
 }
 
     .sidebar-music-bar a {
         margin-left: 10%;
         border: 0;
         font-family: Consolas;
+        font-size: 18px;
         text-decoration: none;
     }
 
@@ -356,6 +359,12 @@ footer {
     height: 330px;
     background-color: #222;
 }
+
+    .footer-bar > div {
+        margin: 0 auto;
+        width: 80%;
+        min-width: 1000px;
+    }
 
 .footer-info {
     height: 70px;
