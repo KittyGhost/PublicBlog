@@ -107,9 +107,18 @@ header {
     overflow: hidden;
 }
 
+.mainbar {
+    width: 64%;
+    min-width: 745.02px;
+    min-height: 100px;
+    float: left;
+    border-right: 2px;
+}
+
 .timelinebar {
     width: 64%;
     min-width: 745.02px;
+    min-height: 100px;
     float: left;
     border-right: 2px solid black;
 }
@@ -175,15 +184,15 @@ header {
     width: 60%;
     height: 100%;
     float: left;
-    word-break: break-all;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
     .timelinenode-rec-middle-right p {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
-        height: 88%;
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 18px;
+        height: 98%;
         color: whitesmoke;
         text-overflow: ellipsis;
         overflow: hidden;
