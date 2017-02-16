@@ -7,13 +7,15 @@
     <script src="JavaScript/jquery-3.1.1.min.js"></script>
     <script src="../JavaScript/pace/pace.min.js"></script>
     <link href="../CSS/pace/themes/pace-theme-minimal.css" rel="stylesheet" />
+    <script src="../JavaScript/google-code-prettify/prettify.js"></script>
+    <!--<link href="../CSS/google-code-prettify/skins/doxy.css" rel="stylesheet" />-->
+    <link href="../CSS/google-code-prettify/skins/sunburst.css" rel="stylesheet" />
+    <link href="../CSS/google-code-prettify/skins/sons-of-obsidian.css" rel="stylesheet" />
     <link href="../CSS/common.css" rel="stylesheet" />
     <script>
-        $(document).ready(function () {
-            unslider = $('.unslider').unslider({
-                delay: 5000, arrows: false, autoplay: true
-            });
-        });
+        window.onload = function () {
+            prettyPrint();
+        }
     </script>
 </head>
 <body>
@@ -32,6 +34,38 @@
     <div class="blank"></div>
     <div class="main">
         <div class="mainbar">
+
+            <pre class="prettyprint linenums">
+package POJO;
+public class User {
+	private String id;
+	private String name;
+	private String password;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public User(String id, String name, String password) {
+		this.id = id;
+		this.name = name;
+		this.password = password;
+	}
+}
+</pre>
         </div>
         <div class="sidebar">
             <div class="sidebar-hot">
