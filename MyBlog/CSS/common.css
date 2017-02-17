@@ -387,3 +387,7 @@ footer {
     height: 70px;
     background-color: black;
 }
+
+pre.prettyprint {
+    text-align: initial;
+}

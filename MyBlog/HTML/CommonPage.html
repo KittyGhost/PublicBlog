@@ -11,11 +11,15 @@
     <!--<link href="../CSS/google-code-prettify/skins/doxy.css" rel="stylesheet" />-->
     <link href="../CSS/google-code-prettify/skins/sunburst.css" rel="stylesheet" />
     <link href="../CSS/google-code-prettify/skins/sons-of-obsidian.css" rel="stylesheet" />
+    <script src="../JavaScript/ckeditor/ckeditor.js"></script>
     <link href="../CSS/common.css" rel="stylesheet" />
     <script>
         window.onload = function () {
             prettyPrint();
         }
+    </script>
+    <script type="text/javascript">
+        CKEDITOR.replace('inputbox');
     </script>
 </head>
 <body>
@@ -66,6 +70,7 @@ public class User {
 	}
 }
 </pre>
+            <textarea id="inputbox" class="ckeditor" cols="20" rows="2"></textarea>
         </div>
         <div class="sidebar">
             <div class="sidebar-hot">
