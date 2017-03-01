@@ -128,11 +128,11 @@ form, fieldset {
         border-radius: 12px;
     }
 
-    .links .ico1 {
+    .links .comment {
         background: #fff url('../../../resource/backgroud/main/sprite.png') no-repeat 14px -445px;
     }
 
-    .links .ico2 {
+    .links .like {
         background: #fff url('../../../resource/backgroud/main/sprite.png') no-repeat 13px -528px;
     }
 
