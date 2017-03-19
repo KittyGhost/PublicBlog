@@ -225,6 +225,13 @@ form, fieldset {
         color: #2b333b;
     }
 
+    .tabs h2 {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0 0 8px;
+        color: #2b333b;
+    }
+
     .tabs p {
         margin: 0 0 10px;
     }
@@ -381,11 +388,11 @@ form, fieldset {
         background-position: -2px -126px;
     }
 
-    .buttons .ico4 span {
+    .buttons .applications span {
         background-position: -2px -153px;
     }
 
-    .buttons .active .ico4 span {
+    .buttons .active .applications span {
         background-position: -2px -178px;
     }
 
